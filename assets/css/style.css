@@ -1,0 +1,155 @@
+/*---- START: Bootstrap Homework Additional CSS ----*/
+
+
+/*---- GENERAL ----*/
+body {
+  margin-bottom: 60px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+h2, h3 {
+	margin: 0 0 0 0;
+}
+
+h2, h3, h5 {
+	color: #777777;
+}
+
+h6 {
+	font-size: 1.25em;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	box-sizing: border-box;
+	background-color: #4aaaa5;
+	color: #ffffff;
+    padding: 10px 0px 10px 0;
+    margin: 0 0 5px 5px;
+    width: 90%;
+	text-align: center;
+}
+
+/*---- CLASS CSS ----*/
+
+.foot {
+	margin-top: -5px;
+	margin-bottom: 0;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	line-height: 60px; 
+	background-color: #343A40;
+	box-sizing: border-box;
+	border-top: 5px solid #4aaaa5;
+	text-align: center;
+	font-size: .8em;
+	color: #ffffff;
+}
+
+.ico {
+		width: 64px;
+		height: 64px;
+}
+
+.imgContainer {
+	position: relative;
+	display: inline-block;
+	margin: 25px 0 25px 25px;
+}
+
+.imgContainer:hover {
+	margin: 25px 0 25px 28px;
+}
+
+.img-fluid, .img-thumbnail {
+	width: 200px;
+	float: left;
+	margin-right: 10px;
+}
+
+.row {
+	margin-right: 0;
+}
+
+/*---- ID CSS ----*/
+
+#article {
+	box-sizing: border-box;
+	background-color: #ffffff;
+	border: 2px solid #dddddd;
+	padding: 20px;
+}
+
+#ext {
+	box-sizing: border-box;
+	background-color: #ffffff; 
+	border: 2px solid #dddddd;
+	width: 270px;
+	text-align: center;
+	padding: 20px 20px 20px 20px;
+	margin: 0 auto;
+}
+
+#frm {
+	box-sizing: border-box;
+	background-color: #ffffff;
+	border: 2px solid #dddddd;
+	line-height: 125%;
+	color: #777777;
+	padding: 20px 20px 20px 20px;
+}
+
+#header {
+	border-bottom: 5px solid #4aaaa5;
+}
+
+#port {
+	box-sizing: border-box;
+	display: inline-block;
+	width: 190px;
+	float: none;
+}	
+	
+/*---- MEDIA QUERY ----*/
+
+@media screen and (max-width: 768px) {
+	#extNav {
+		width: 100%;
+		padding-right: 0;
+		padding-left: 0;	
+	}
+	
+	#ext {
+		box-sizing: border-box;
+		background-color: #ffffff; 
+		border: 2px solid #dddddd;
+		width: 100%;
+		text-align: center;
+		padding: 10px 0 10px 0;
+		margin: 0 auto;
+	}
+	
+	h3 {
+		font-size:0.9em;
+	}
+	
+		#extNav{
+			margin-top: 20px;
+		}
+}
+
+@media screen and (max-width: 640px) {
+	h1, h2, h3, h4, h5, h6 {
+		font-size:0.9em;
+    }	
+}
+
+/*---- END: Bootstrap Homework Additional CSS ----*/
